@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
         
-        // Here you would typically send the form data to a server
+        // Here you wouald typically send the form data to a server
         // For this example, we'll just log it to the console
         const formData = new FormData(contactForm);
         console.log('Form submitted:');
